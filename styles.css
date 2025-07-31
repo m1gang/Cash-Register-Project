@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+.entrada {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.entrada * {
+    padding: 5px;
+    margin: 5px;
+}
+
+.entrada button {
+    width: 100px;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.8);
+}
+
+
+#part-1 {
+    padding: 20px 5px;
+    border-radius: 5px;
+    margin-left: 250px;
+    background-color: #3E7FFF;
+}
+
+#part-1 span{
+    background-color: black;
+    color: rgb(14, 254, 1);
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Bitcount Prop Single", system-ui;
+}
+
+#part-2 {
+    width: 25px;
+    height: 20px;
+    margin-left: 250px;
+    background-color: #5B5E8B;
+}
+
+#part-3 {
+    width: 450px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+    background-color: #65B9FF;
+}
+
+#part-4 {
+    width: 450px;
+    height: 180px;
+    transform: perspective(450px) rotateX(30deg);
+    transform-origin: top;
+    background-color: #3E7FFF;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#part-4 .found {
+    font-size: 12px;
+    background: rgb(2, 2, 2);
+    margin: 10px;
+    padding: 1px;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+    color: rgb(14, 254, 1);
+    font-family: "Bitcount Prop Single", system-ui;
+}
+
+#part-4 .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 20px;
+}
+
+#part-4 .buttons div {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+#part-4 .buttons .yellow{
+    background-color: rgb(255, 174, 0);
+}
+#part-4 .buttons .red{
+    background-color: rgb(208, 1, 22);
+}
+
+
+#part-5 {
+    width: 561px;
+    height: 60px;
+    background-color: #65B9FF;
+    margin-top: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#part-5 div{
+    background-color: aliceblue;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+#part-6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#part-6 div {
+    background-color: #5B5E8B;
+    width: 30px;
+    height: 15px;
+    margin: 0 15px;
+    border-radius: 0px 0px 5px 5px;
+}
+
