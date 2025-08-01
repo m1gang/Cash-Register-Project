@@ -49,6 +49,17 @@ main h1 {
     font-family: "Bitcount Prop Single", system-ui;
 }
 
+.entrada #change-due {
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+    color: rgb(14, 254, 1);
+    font-family: "Bitcount Prop Single", system-ui;
+    background-color: black;
+    border: 5px solid #3E7FFF;
+    display: none;
+}
+
 .entrada button {
     width: 100px;
     height: 30px;
@@ -117,7 +128,7 @@ main h1 {
 #part-4 .found {
     font-size: 12px;
     background: rgb(2, 2, 2);
-    margin: 10px;
+    margin: 5px;
     padding: 1px;
     border-radius: 10px;
     text-align: center;

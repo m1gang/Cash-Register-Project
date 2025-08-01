@@ -15,13 +15,13 @@
         <div class='entrada'>
             <span id='change-due'></span>
             <label for="cash">Ingrese el dinero del cliente</label>
-            <input type="number" id="cash" value="15.3">
+            <input type="number" id="cash">
             <button id="purchase-btn">Comprar</button>
         </div>
 
         <div id="info">
             <div id='part-1'>
-                <span>Total: $
+                <span id="total">Total: $
                 </span>
             </div>
             <div id='part-2'></div>
@@ -31,15 +31,8 @@
                 <div class="found">
                     <p>
                         <b>Change in drawer:</b><br>
-                        Pennies: $1.01<br>
-                        Nickels: $2.05<br>
-                        Dimes: $3.1<br>
-                        Quarters: $4.25<br>
-                        Ones: $90<br>
-                        Fives: $55<br>
-                        Tens: $20<br>
-                        Twenties: $60<br>
-                        Hundreds: $100
+                        <span id="money-span"></span>
+                        
                     </p>
                 </div>
                 <div class="buttons">
