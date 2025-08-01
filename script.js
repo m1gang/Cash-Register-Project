@@ -11,4 +11,6 @@ let cid = [
   ['ONE HUNDRED', 100]
 ];
 
-console.log("Price: " + price);
+// let {value} = document.getElementById('cash');
+
+// console.log("Cash: " + value);
